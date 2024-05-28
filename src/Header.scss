@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        column-gap: 20em;
+   
+        .heading{
+          
+   
+            .navbar-brand{
+               .nav__logo{
+                   width: 150px;
+                   margin-top: 2em;
+                 }
+            }
+        }
+   
+        .heading-buttons{
+            display: flex;
+           flex-direction: row;
+            justify-content: space-around;
+            column-gap: 3em;
+            margin-top: 2em;
+   
+            .select-btn{
+            
+             
+               
+                select{
+                     color: white;
+                  width: 130px;
+                  height: 30px;
+                  text-align: center;
+                  font-size: 16px;
+                  background: rgba(0, 0, 0, 0.493);
+
+             
+                }
+               
+            }
+   
+            .btn{
+                position: relative;
+                button{
+
+                    .inactive {
+                        color: #fff;
+                        text-decoration: none;
+                    }
+
+                  
+
+                    color: white;
+                    width: 80px;
+                    height: 30px;
+                    text-align: center;
+                    font-size: 16px;
+                    background-color: rgb(229, 9, 20);
+                    position: absolute;
+                    border: none;
+                    border-radius: 5px;
+                   
+                }
+            }
+   
+      }
+    }

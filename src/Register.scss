@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  //  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/9f46b569-aff7-4975-9b8e-3212e4637f16/453ba2a1-6138-4e3c-9a06-b66f9a2832e4/IN-en-20240415-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+}
+
+.SignIn-container {
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/9f46b569-aff7-4975-9b8e-3212e4637f16/453ba2a1-6138-4e3c-9a06-b66f9a2832e4/IN-en-20240415-popsignuptwoweeks-perspective_alpha_website_medium.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .navbar-heading {
+    .navbar-brand{
+      .nav__logo{
+          width: 150px;
+          margin-top: 2em;
+          margin-left: 6em;
+        }
+   }
+  }
+
+  .sign-up-box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .sign-up-box {
+      border-radius: 10px;
+      background-color: rgba(0, 0, 0, 0.726);
+      width: 400px;
+      height: 650px;
+      margin-top: 3em;
+
+      .header {
+        h1 {
+          color: #fff;
+          font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+            sans-serif;
+          padding-top: 3.5rem;
+          text-align: center;
+          font-size: 2rem;
+        }
+      }
+
+      form {
+        padding-top: 2em;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1em;
+
+        .box-1 {
+          input {
+            height: 40px;
+            width: 300px;
+            margin-left: 3em;
+            background-color: rgba(128, 128, 128, 0.432);
+            outline: none;
+          }
+        }
+
+        .box-2 {
+          input {
+            height: 40px;
+            width: 300px;
+            margin-left: 3em;
+            background-color: rgba(128, 128, 128, 0.432);
+            outline: none;
+          }
+        }
+
+        .box-3 {
+          input {
+            height: 40px;
+            width: 300px;
+            margin-left: 3em;
+            background-color: rgba(128, 128, 128, 0.432);
+            outline: none;
+          }
+        }
+      }
+
+      .btn-1 {
+        button {
+          height: 40px;
+          width: 300px;
+          background-color: rgb(229, 9, 20);
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          margin-top: 1em;
+          font-size: 16px;
+          font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+            sans-serif;
+          text-align: center;
+          font-weight: 600;
+          margin-left: 3em;
+        }
+      }
+
+      .OR-box {
+        p {
+          color: #fff;
+          font-size: 20px;
+          font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+            sans-serif;
+          margin-top: 1em;
+          text-align: center;
+        }
+      }
+      .btn-2 {
+        button {
+          height: 40px;
+          width: 300px;
+          background-color: rgba(128, 128, 128, 0.432);
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          margin-top: 1em;
+          font-size: 16px;
+          font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+            sans-serif;
+          text-align: center;
+          font-weight: 600;
+          margin-left: 3em;
+
+          .inactive {
+            color: #fff;
+            text-decoration: none;
+        }
+        }
+      }
+
+      .forget-password {
+        h6 {
+          color: #fff;
+          font-size: 18px;
+          font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+            sans-serif;
+          margin-top: 1em;
+          font-weight: 400;
+          text-align: center;
+        }
+      }
+
+      .check-apply {
+        color: #fff;
+        font-size: 18px;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+          sans-serif;
+        margin-top: 1em;
+        font-weight: 400;
+        margin-left: 5px;
+        text-align: center;
+      }
+
+      .page-info {
+        p {
+          color: #ffffff7e;
+          font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+            sans-serif;
+          margin-top: 1em;
+        }
+      }
+    }
+  }
+
+  footer {
+    margin-top: 4em;
+    background-color: rgba(0, 0, 0, 0.726);
+
+    .Query {
+      color: #fff;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+        sans-serif;
+      padding-top: 2em;
+      padding-left: 4em;
+    }
+
+    .info-links {
+      color: #fff;
+      ul {
+        display: flex;
+        flex-direction: row;
+        padding: 3em;
+        column-gap: 5em;
+
+        li {
+          list-style: none;
+
+          Link {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
